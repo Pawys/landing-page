@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+.header {
+  padding: 8px 200px;
+  background-color: #1f2937;
+  justify-content: center;
+}
+.Hlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Hlogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.Hmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  color: #e5e7eb;
+  font-size: 18px;
+  gap: 8px;
+  padding: 8px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+button {
+  background-color: #3882f6;
+  margin: 5px;
+  padding: 10px 40px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.placeholder {
+  padding: 50px 8px;
+  width: 50%;
+}
+.hero {
+  width: 50%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 450px 100px 450px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boximg {
+  width: 200px;
+}
+.subtext {
+  width: 200px;
+  text-align: center;
+  color: #646d79;
+}
+.inf {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 450px;
+  display: flex;
+  flex-direction: column;
+}
+.quotetext {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.thor {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+.action {
+  padding: 100px 200px;
+}
+
+.dontknowhowtonameit {
+  padding: 50px 100px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.action1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.action2 {
+  font-size: 15px;
+  color: #f9faf8;
+}
+.one {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
